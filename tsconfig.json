@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": "src",
+    "paths": {
+      "@app/*": ["/*"],
+      "@TinyURL/*": ["TinyURL/*"],
+      "@APIQuickConfiguration/*":["API-quick-configuration/*"]
+    }
+  },
+  "exclude": ["./node_modules"]
+}

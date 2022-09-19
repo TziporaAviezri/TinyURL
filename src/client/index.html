@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Unleash TinyURL</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="header">TinyURL</div>
+      <form class="form" id="shortedURLForm">
+        <input type="text" id="url" name="URL" placeholder="Paste a link to shorten" />
+        <div class="error"></div>
+        <button type="submit" class="btn">Do</button>
+      </form>
+      <div class="link-wrapper">
+        <h3 class="link-text">Shortened Link</h3>
+        <div class="short-link" id="short-link"></div>
+        <form class="form" id="visitedCountForm">
+          <button type="submit" class="btn">visited count?</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="./index.js"></script>
+</body>
+
+</html>
