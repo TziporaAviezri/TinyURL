@@ -9,7 +9,7 @@
     "paths": {
       "@app/*": ["/*"],
       "@TinyURL": ["TinyURL/index"],
-      "@APIQuickConfiguration/*":["API-quick-configuration/*"]
+      "@APIQuickConfiguration":["API-quick-configuration/index"]
     }
   },
   "exclude": ["./node_modules"]
