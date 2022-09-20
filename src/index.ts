@@ -1,7 +1,7 @@
 import express from "express";
 import path from "path";
 import { createBAsicAppWithExpress, mongoDBConnection } from "@APIQuickConfiguration/index";
-import { sendTinyURLHTMLPage, shortedURL, redirectsToOriginaPage , visitedCounter} from "@TinyURL/index";
+import { sendTinyURLHTMLPage, shortedURL, redirectsToOriginaPage , visitedCounter} from "@TinyURL";
 import cluster from 'node:cluster';
 import { cpus } from 'node:os';
 

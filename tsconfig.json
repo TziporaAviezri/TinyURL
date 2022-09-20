@@ -8,7 +8,7 @@
     "baseUrl": "src",
     "paths": {
       "@app/*": ["/*"],
-      "@TinyURL/*": ["TinyURL/*"],
+      "@TinyURL": ["TinyURL/index"],
       "@APIQuickConfiguration/*":["API-quick-configuration/*"]
     }
   },
